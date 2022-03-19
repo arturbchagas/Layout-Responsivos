@@ -30,9 +30,6 @@
     background-image: url(../img/icone-quimica.png);
 }
 
-
-
-
 .item__titulo {
     color: var(--cinza-escuro);
     font-weight: 700;
@@ -44,4 +41,12 @@
 
 .item__texto {
     line-height: normal;
+}
+@media screen and (min-width:1024px){
+    .diferenciais{
+    background-color: var(--cinza-claro);
+    }
+    .diferenciais__lista{
+        justify-content: space-around;
+    }
 }
